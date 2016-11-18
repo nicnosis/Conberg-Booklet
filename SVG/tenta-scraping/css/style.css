@@ -1,0 +1,55 @@
+svg {
+  height: 95vh;
+  width: auto;
+}
+/*****  ANIMATION  ******/
+#eye0,
+#eye1,
+#eye2,
+#retina,
+#eyeball,
+#_1-1,
+#_1-2,
+#_1-3 {
+  animation: offset 2s linear forwards;
+}
+#eye0 {
+  stroke-dasharray: 7;
+  stroke-dashoffset: 7;
+}
+#eye1 {
+  stroke-dasharray: 17;
+  stroke-dashoffset: 17;
+}
+#eye2 {
+  stroke-dasharray: 46;
+  stroke-dashoffset: 46;
+}
+#retina {
+  stroke-dasharray: 116;
+  stroke-dashoffset: 116;
+}
+#eyeball {
+  stroke-dasharray: 240;
+  stroke-dashoffset: 240;
+}
+@-moz-keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

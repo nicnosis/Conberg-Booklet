@@ -1,0 +1,31 @@
+svg
+  height 95vh
+  width auto
+
+/*****  ANIMATION  ******/
+s()
+  stroke-dasharray: arguments;
+  stroke-dashoffset: arguments;
+
+@keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#eye0, #eye1, #eye2, #retina, #eyeball,
+#_1-1, #_1-2, #_1-3
+{
+  animation: offset 2s linear forwards;
+}
+
+#eye0
+  s(7)
+#eye1
+  s(17)
+#eye2
+  s(46)
+#retina
+  s(116)
+#eyeball
+  s(240)
